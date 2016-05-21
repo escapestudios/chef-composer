@@ -10,10 +10,6 @@ version '2.3.0'
   supports os
 end
 
-depends 'php'
-
-recommends 'windows'
-
 recipe 'composer', 'Installs (if applicable) and self-updates composer.'
 recipe 'composer::install', 'Installs composer.'
 recipe 'composer::self_update', 'Installs (if applicable) and self-updates composer.'
